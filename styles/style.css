@@ -1,0 +1,41 @@
+/* CSS ZONE */
+
+html {
+	font-size: 10px;
+	font-family: 'PT Sans Narrow', sans-serif;
+  	background-color: #1e2227;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  color: rgb(63, 105, 184);
+  margin: 0;
+  padding: 20px 0;
+  /*text-shadow: 3px 3px 0px orange;*/
+}
+
+h2 {
+	font-size: 30px;
+	color: rgb(63, 105, 184);
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #282b33;
+  padding: 0 20px 20px 20px;
+  border: 3px solid black;
+}
+
+p, li {
+  font-size: 18px;    
+  line-height: 1;
+  letter-spacing: 1px;
+  color: white;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
