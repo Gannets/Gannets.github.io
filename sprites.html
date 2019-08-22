@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="author" content="Gannets">
-    <meta name="description" content="gannets.dev is the home-page of itnernet user Gannets, illustrator, designer, pixel artist & game dev person. Clicking around will allow you to access all sorta portfolio content and links to outside repositories of my work.">
+    <meta name="description" content="gannets.dev is the home-page of internet user Gannets, illustrator, designer, pixel artist & game dev person. Clicking around will allow you to access all sorta portfolio content and links to outside repositories of my work.">
     <link href="styles/style.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet"> 
     <title>Pixel art portfolio - gannets.dev</title>
@@ -19,10 +19,26 @@
     </ul>
     <!-- Content begins: -->
     <h1>gannets.dev</h1>
-
     <img src="images/250buddy.png" alt="A Thinktronic buddy PR-4 robot.">
 
   	<h2>Sprites</h2>
   	<p>Many pictures of small things go here. I have sprited all kinds of junk for <abbr title="Space Station 13">SS13</abbr></p>
+
+    <!-- gallery test -->
+    <div class="gallery" align="centre">
+    <h2>Pixel Art Portfolio</h2>
+      <br>
+      <div class="thumbnails">
+        <img onmouseover="getElementById('preview').src=getElementById('img1').src" id="img1" src="images/sprite1.png" alt="" />
+        <img onmouseover="getElementById('preview').src=getElementById('img2').src" id="img2" src="images/sprite2.gif" alt="" />
+        <img onmouseover="getElementById('preview').src=getElementById('img3').src" id="img3" src="images/sprite3.gif" alt="" />
+        <img onmouseover="getElementById('preview').src=getElementById('img4').src" id="img4" src="images/sprite4.gif" alt="" />
+      </div>
+      <br>
+      <div class="preview" align="center">
+          <img id="preview" src="images/sprite1.png" alt="" />
+      </div>
+    </div>
+  
   </body>
 </html>
