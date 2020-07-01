@@ -1,4 +1,6 @@
-/* comment */
+/* 
+  comment 
+*/
 
 // also comment
 
@@ -13,25 +15,28 @@ myImage.onclick = function() {
     }
 }
 
+let myButton = document.querySelector('button');
+let myHeading = document.querySelector('h1');
 
-/*
-var myButton = document.querySelector('button');
-var myHeading = document.querySelector('h1');
+// Username js below
 
 function setUserName() {
-  var myName = prompt('Please enter your name.');
+  let myName = prompt('Enter your name, please');
+  if(!myName || myName === null) {
+    setUserName();
+  } else {
   localStorage.setItem('name', myName);
-  myHeading.textContent = 'Mozilla is cool, ' + myName;
+  myHeading.textContent = 'gannets.dev, ' + myName;
+  }
 }
 
 if(!localStorage.getItem('name')) {
   setUserName();
 } else {
-  var storedName = localStorage.getItem('name');
-  myHeading.textContent = 'Mozilla is cool, ' + storedName;
+  localStorage.setItem('name', myName);
+  myHeading.innerHTML = 'gannets.dev, ' + storedName;
 }
 
 myButton.onclick = function() {
   setUserName();
 }
-*/
